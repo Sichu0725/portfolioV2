@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;700&display=swap')
+html, body
+  width: 100%
+  height: 100%
+  overflow-x: hidden
+a:visited, a:active, a:link
+  color: black
+  text-decoration: none
+a:hover
+  color: black
+  text-decoration: underline
+*
+  font-family: 'Noto Sans KR', sans-serif
+  padding: 0
+  margin: 0
+.header
+  z-index: 2
+  width: 100%
+  background-color: black
+  min-height: 400px
+  position: sticky
+  top: -300px
+  position: -webkit-sticky
+  &:first-child
+    h2
+    font-size: 20px
+    font-weight: 800
+    padding: 0px 8px
+    strong
+      display: inline-block
+      font-weight: 800
+      font-size: 1.4em
+.myInfo
+  width: 70%
+  margin: 0 auto
+  padding: 130px 0
+  display: flex
+  justify-content: space-evenly
+  img
+    width: 30%
+    border-radius: 15px
+    vertical-align: middle
+  div
+    p
+      line-height: 1.9em
+      font-weight: 900
+      font-size: 1.2em
+.project
+  width: 70%
+  margin: 0 auto
+  & > div
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    gap: 30px
+    grid-auto-flow: row dense
+    .flex
+      display: grid
+      row-gap: 20px
+      align-content: space-evenly
+      .card
+        overflow: visible
+        padding: 0
+        margin: 5px
+        width: 370px
+        border: 1px solid #aaa
+        border-radius: 8px
+        .cardThumb
+          border-top-left-radius: 8px
+          border-top-right-radius: 8px
+          object-fit: cover
+          width: 100%
+          height: auto
+        .cardBody
+          position: relative
+          border-top: 1px solid #ddd
+          h3
+            margin: 7px 0
+            text-align: center
+          p
+            margin: 5px 4px
+            text-align: center
+.num
+  position: absolute
+  top: -17px
+  left: 46%
+  z-index: 1
+  padding: 2px 8px
+  font-size: 14px
+  background-color: #4781ff
+  color: white
+  border-radius: 500px
+.doIt
+  width: 70%
+  margin: 18px auto
+  display: flex
+  justify-content: flex-start
+  & > div
+    display: inline-block
+    width: 33%
+    ul
+      margin: 15px auto
+      width: 90%
+.stack
+  width: 70%
+  margin: 0 auto
+  & > div
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-evenly
+    figure
+      text-align: center
+      img
+        vertical-align: middle
+        height: 150px
+        width: auto
+      figcaption
+        font-weight: 800
+  
