@@ -7,9 +7,9 @@ export const MyInfo = () => {
         <h1>0. 자기소개</h1>
         <p>
           이름 : 최홍찬 <br />
-          성격 : 조용함
+          성격 : 잔잔함
           <br />
-          주개발분야 : 프론트엔드
+          주개발분야 : ML
           <br />
           관심분야 : 웹/앱, Machine learning, Security
           <br /> 좋아하는 것 : 집, 개, 고양이, 웹 해킹, 웹 &앱 개발, POP, 독서,

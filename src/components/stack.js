@@ -23,7 +23,7 @@ export const Stack = () => {
         </figure>
         <figure>
           <img src={python} alt='python' />
-          <figcaption>4. Python</figcaption>
+          <figcaption>4. Python, PyTorch, YOLO</figcaption>
         </figure>
         <figure>
           <img src={node} alt='node.js' />
